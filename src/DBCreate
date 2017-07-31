@@ -1,0 +1,10 @@
+CREATE DATABASE DAO_TEST;
+USE DAO_TEST;
+DROP TABLE IF EXISTS `DAO_TEST`.`build_time`;
+CREATE TABLE  `DAO_TEST`.`build_time` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `build_job_id` int(11) NOT NULL,
+  `solution` varchar(255) NOT NULL,
+  `time_cost` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8; 

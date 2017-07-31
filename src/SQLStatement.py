@@ -1,0 +1,5 @@
+SELECT_ALL_FROM_BUILD_TIME = "SELECT * FROM `DAO_TEST`.`build_time`"
+INSERT_DATA_INTO_BUILD_TIME = "INSERT INTO `DAO_TEST`.`build_time` (`build_job_id`, `solution`, `time_cost`) VALUES(%s, %s, %s)"
+DELETE_ALL_FROM_BUILD_TIME = "DELETE FROM `DAO_TEST`.`build_time`"
+GET_JOB_BY_JOB_ID_FROM_BUILD_TIME = "SELECT * FROM `DAO_TEST`.`build_time` WHERE `build_job_id`=%s"
+UPDATE_JOB_BY_JOB_ID_FROM_BUILD_TIME = "UPDATE `DAO_TEST`.`build_time` SET `solution`=%s, `time_cost`=%s WHERE `build_job_id`=%s"
